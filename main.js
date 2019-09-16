@@ -1,21 +1,71 @@
 // Remove and complete icons in SVG format
-let removeSVG = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve"><rect class="noFill" width="22" height="22"/><g><g><path class="fill" d="M16.1,3.6h-1.9V3.3c0-1.3-1-2.3-2.3-2.3h-1.7C8.9,1,7.8,2,7.8,3.3v0.2H5.9c-1.3,0-2.3,1-2.3,2.3v1.3c0,0.5,0.4,0.9,0.9,1v10.5c0,1.3,1,2.3,2.3,2.3h8.5c1.3,0,2.3-1,2.3-2.3V8.2c0.5-0.1,0.9-0.5,0.9-1V5.9C18.4,4.6,17.4,3.6,16.1,3.6z M9.1,3.3c0-0.6,0.5-1.1,1.1-1.1h1.7c0.6,0,1.1,0.5,1.1,1.1v0.2H9.1V3.3z M16.3,18.7c0,0.6-0.5,1.1-1.1,1.1H6.7c-0.6,0-1.1-0.5-1.1-1.1V8.2h10.6V18.7z M17.2,7H4.8V5.9c0-0.6,0.5-1.1,1.1-1.1h10.2c0.6,0,1.1,0.5,1.1,1.1V7z"/></g><g><g><path class="fill" d="M11,18c-0.4,0-0.6-0.3-0.6-0.6v-6.8c0-0.4,0.3-0.6,0.6-0.6s0.6,0.3,0.6,0.6v6.8C11.6,17.7,11.4,18,11,18z"/></g><g><path class="fill" d="M8,18c-0.4,0-0.6-0.3-0.6-0.6v-6.8c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v6.8C8.7,17.7,8.4,18,8,18z"/></g><g><path class="fill" d="M14,18c-0.4,0-0.6-0.3-0.6-0.6v-6.8c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v6.8C14.6,17.7,14.3,18,14,18z"/></g></g></g></svg>';
+let removeSVG = '<svg class="fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="482.428px" height="482.429px" viewBox="0 0 482.428 482.429" style="enable-background:new 0 0 482.428 482.429;" xml:space="preserve">\n' +
+    '<g>\n' +
+    '\t<g>\n' +
+    '\t\t<path d="M381.163,57.799h-75.094C302.323,25.316,274.686,0,241.214,0c-33.471,0-61.104,25.315-64.85,57.799h-75.098    c-30.39,0-55.111,24.728-55.111,55.117v2.828c0,23.223,14.46,43.1,34.83,51.199v260.369c0,30.39,24.724,55.117,55.112,55.117    h210.236c30.389,0,55.111-24.729,55.111-55.117V166.944c20.369-8.1,34.83-27.977,34.83-51.199v-2.828    C436.274,82.527,411.551,57.799,381.163,57.799z M241.214,26.139c19.037,0,34.927,13.645,38.443,31.66h-76.879    C206.293,39.783,222.184,26.139,241.214,26.139z M375.305,427.312c0,15.978-13,28.979-28.973,28.979H136.096    c-15.973,0-28.973-13.002-28.973-28.979V170.861h268.182V427.312z M410.135,115.744c0,15.978-13,28.979-28.973,28.979H101.266    c-15.973,0-28.973-13.001-28.973-28.979v-2.828c0-15.978,13-28.979,28.973-28.979h279.897c15.973,0,28.973,13.001,28.973,28.979    V115.744z"/>\n' +
+    '\t\t<path d="M171.144,422.863c7.218,0,13.069-5.853,13.069-13.068V262.641c0-7.216-5.852-13.07-13.069-13.07    c-7.217,0-13.069,5.854-13.069,13.07v147.154C158.074,417.012,163.926,422.863,171.144,422.863z"/>\n' +
+    '\t\t<path d="M241.214,422.863c7.218,0,13.07-5.853,13.07-13.068V262.641c0-7.216-5.854-13.07-13.07-13.07    c-7.217,0-13.069,5.854-13.069,13.07v147.154C228.145,417.012,233.996,422.863,241.214,422.863z"/>\n' +
+    '\t\t<path d="M311.284,422.863c7.217,0,13.068-5.853,13.068-13.068V262.641c0-7.216-5.852-13.07-13.068-13.07    c-7.219,0-13.07,5.854-13.07,13.07v147.154C298.213,417.012,304.067,422.863,311.284,422.863z"/>\n' +
+    '\t</g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '<g>\n' +
+    '</g>\n' +
+    '</svg>';
+
+let input = document.querySelector('.new-todo');
 
 document.querySelector('.new-todo')
     .addEventListener('keydown', function(event){
-        let element = document.querySelector('.new-todo');
+
         if(event.key.toLocaleLowerCase() === 'enter'){
             // console.log('test');
             addItemToDOM();
-            element.value = '';
+            input.value = '';
         }
     })
+
+function removeItem() {
+    let item = this.parentNode.parentNode;
+    let parent = item.parentNode;
+    parent.removeChild(item);
+}
 
 // Adds a new item to the todo list
 function addItemToDOM() {
     let list = document.querySelector('.todo-list');
 
     let item = document.createElement('li');
+    // item.innerText = text;
+    let inputValue = document.createTextNode(input.value);
+    item.appendChild(inputValue);
 
     let buttons = document.createElement('div');
     buttons.classList.add('buttons');
@@ -23,6 +73,8 @@ function addItemToDOM() {
     let remove = document.createElement('button');
     remove.classList.add('remove');
     remove.innerHTML = removeSVG;
+
+    remove.addEventListener('click', removeItem);
 
 
     buttons.appendChild(remove);
