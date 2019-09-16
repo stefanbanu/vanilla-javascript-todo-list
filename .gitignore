@@ -59,4 +59,14 @@ typings/
 
 *.xml
 
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
 package-lock.json
