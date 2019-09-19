@@ -81,3 +81,7 @@ ul.todo-list li .buttons button.remove svg .fill {
 ul.todo-list li .buttons button.remove:hover svg .fill {
     color: #e85656;
 }
+
+.checkbox {
+    background-color: red;
+}

@@ -73,12 +73,17 @@ function addItemToDOM() {
     let remove = document.createElement('button');
     remove.classList.add('remove');
     remove.innerHTML = removeSVG;
-
     remove.addEventListener('click', removeItem);
 
+    let divCheckBox = document.createElement('div');
+    let checkBox = document.createElement('INPUT');
+    checkBox.classList.add('checkbox');
+    checkBox.setAttribute('type', 'CHECKBOX');
 
     buttons.appendChild(remove);
+    divCheckBox.appendChild(checkBox);
     item.appendChild(buttons);
+    item.appendChild(divCheckBox);
 
     list.insertBefore(item, list.childNodes[0]);
 }
