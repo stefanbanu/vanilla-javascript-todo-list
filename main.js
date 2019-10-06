@@ -20,7 +20,6 @@ function addItemToDOM() {
   let list = document.querySelector(".todo-list");
 
   let item = document.createElement("li");
-  // item.classList.add("''");
 
   let divView = document.createElement("div");
   divView.classList.add("view");
