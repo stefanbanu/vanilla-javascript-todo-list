@@ -27,6 +27,13 @@ function addItemToDOM() {
   let checkBox = document.createElement("input");
   checkBox.classList.add("toggle");
   checkBox.setAttribute("type", "checkbox");
+  checkBox.addEventListener("change", function() {
+    if (this.checked) {
+      item.classList.add("completed");
+    } else {
+      item.classList.remove("completed");
+    }
+  });
 
   divView.appendChild(checkBox);
 
