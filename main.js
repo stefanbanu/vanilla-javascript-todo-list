@@ -3,7 +3,7 @@ let input = document.querySelector(".new-todo");
 document
   .querySelector(".new-todo")
   .addEventListener("keydown", function(event) {
-    if (event.key.toLocaleLowerCase() === "enter") {
+    if (event.key.toLocaleLowerCase() === "enter" && input.value) {
       addItemToDOM();
       input.value = "";
     }
